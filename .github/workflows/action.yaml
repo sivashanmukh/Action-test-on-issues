@@ -9,6 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Github issues on Notion
-      uses: rudderlabs/github-notion@0.0.0-beta
+      uses: rudderlabs/github-notion@0.0.1-beta
 
 
