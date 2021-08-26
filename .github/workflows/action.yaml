@@ -10,5 +10,6 @@ jobs:
     steps:
     - name: Github issues on Notion
       uses: rudderlabs/github-notion@0.0.4-beta
-
-
+      with:
+        token: ${{ secrets.NOTION_TOKEN }}
+        dbID: '160b858182d545199061198b5e3b9ca3'
